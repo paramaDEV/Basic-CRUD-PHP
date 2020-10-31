@@ -1,0 +1,38 @@
+body{
+    margin : 0;
+    padding : 0;
+}
+
+nav{
+    background-color:rgb(20, 119, 212);
+    height : 75px;
+    line-height: 75px;
+    padding-left : 30px;
+}
+
+h1{
+    color:white;
+    font-family: 'Roboto','Sans-serif';
+    font-size: 30px;
+}
+h2{
+    color : rgb(37, 37, 37);
+    font-family: Sans-serif;
+    font-size: 30px;
+}
+
+.content{
+    width : 80%;
+    height:100%;
+    margin:auto;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.edit,.delete{
+    margin:10px;
+}
