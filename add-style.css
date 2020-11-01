@@ -1,0 +1,60 @@
+body{
+    margin : 0;
+    padding : 0;
+}
+
+nav{
+    background-color:rgb(20, 119, 212);
+    height : 75px;
+    line-height: 75px;
+    padding-left : 30px;
+}
+
+h1{
+    color:white;
+    font-family: 'Roboto','Sans-serif';
+    font-size: 30px;
+}
+
+table{
+    width: 30%;
+    text-align: left;
+    margin:auto;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+    font-family:"Roboto","sans-serif";
+}
+
+input,select{
+    height : 40px;
+    width : 250px;
+    border-radius:10px;
+    font-size: 20px;
+    padding-left: 10px;
+    border : 3px  solid rgb(148, 148, 148);
+}
+
+#nama{
+    width : 320px;
+}
+#nim{
+    width : 200px;
+}
+#fakultas{
+    width : 200px;
+}
+
+button{
+    height:40px;
+    width : 100px;
+    background-color: rgb(5, 105, 43);
+    border:none;
+    border-radius:5px;
+    color:white;
+}

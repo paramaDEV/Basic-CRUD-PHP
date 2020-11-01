@@ -14,12 +14,12 @@ $data = showData('SELECT * FROM mahasiswa');
     </head>
     <body>
         <nav>
-            <h1>paramaDEV</h1>
+            <h1>Home</h1>
         </nav>
     </body>
     <div class="content">
         <h2>Data Mahasiswa</h2>
-        <button class="add">Tambah Data</button>
+        <a href="add.php"><button class="add" name="add">Tambah Data</button></a>
         <table border=0 cellpadding="20px" cellspacing="0px">
             <tr>
                 <th>No</th>
