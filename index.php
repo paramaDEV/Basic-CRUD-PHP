@@ -42,7 +42,7 @@ $data = showData('SELECT * FROM mahasiswa');
                 <td><?= $x["jurusan"]?></td>
                 <td>
                     <button class="edit">Edit</butto>
-                    <button class="delete">Hapus</butto>
+                    <a href="delete.php?id=<?=$x['id']?>"><button class="delete">Hapus</button></a>
                 </td>
             </tr>
             <?php 

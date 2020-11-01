@@ -35,7 +35,26 @@ function addData($data){
         echo "<script>alert('Berhasil')</script>";
     }else{
         echo "<script>alert('Gagal')</script>";
-        echo mysqli_error($koneksi);
+        
+    }
+}
+
+//Function hapus data
+function deleteData($id){
+    global $koneksi;
+
+    $query = "DELETE FROM mahasiswa WHERE id=$id";
+
+    mysqli_query($koneksi,$query);
+
+    if(mysqli_affected_rows($koneksi)>0){
+        echo "<script>alert('Berhasil hapus');
+            document.location.href='index.php';
+        </script>";
+    }else{
+        echo "<script>alert('Gagal hapus');
+        document.location.href='index.php';
+    </script>";
     }
 }
 
