@@ -41,8 +41,8 @@ $data = showData('SELECT * FROM mahasiswa');
                 <td><?= $x["fakultas"]?></td>
                 <td><?= $x["jurusan"]?></td>
                 <td>
-                    <button class="edit">Edit</butto>
-                    <a href="delete.php?id=<?=$x['id']?>"><button class="delete">Hapus</button></a>
+                    <a href="update.php?id=<?=$x['id']?>"><button class="edit">Edit</button></a>
+                    <a href="delete.php?id=<?=$x['id']?>" onclick="return confirm('Apakah anda yakin ingin menghapus ini ?');"><button class="delete">Hapus</button></a>
                 </td>
             </tr>
             <?php 
